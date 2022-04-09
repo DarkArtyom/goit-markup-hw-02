@@ -65,22 +65,12 @@ body {
     color: var(--logo-web-color);
 }
 
-.logo-web:hover, 
-.logo-web:focus {
-    color: var(--logo-studio-color);
-}
-
 .logo-studio {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.1;
     color: var(--logo-studio-color);
-}
-
-.logo-studio:hover, 
-.logo-studio:focus {
-    color: var(--logo-web-color);
 }
 
 .header-link {
@@ -213,11 +203,6 @@ body {
     line-height: 1.1;
     color: var(--logo-studio-alt-color);
 }
-    
-.logo-studio-footer:hover, 
-.logo-studio-footer:focus {
-    color: var(--logo-web-color);
-}
 
 .footer-map-link {
     line-height: 1.7;
@@ -233,10 +218,10 @@ body {
 .footer-mail {
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--secondary-text-color);
+    color: var(--footer-text-color);
     font-style: normal;
 }
-    
+
 .footer-mail:hover,
 .footer-mail:focus {
     color: var(--link-color);
